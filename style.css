@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    font-family: Catamaran, sans-serif;
+}
+
+#logoMenu {
+    width: 150px;
+}
+
+
+#menu li {
+    margin-left: 40px;
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#primeiraSection {
+    background-color:rgb(211, 9, 144)
+    }
+
+
+#fotoGuanabara {
+    margin-left: 500px;
+    float: left;
+}
+
+#textoPaixao {
+   margin-top: 50px;
+}
+
+
+#logoMenu {
+    margin: 10px 0 0 35px;
+}
+
+.paixao {
+    font-size: 100px;
+    color: rgb(238, 128, 201);
+}
+.ensinar {
+    font-size: 100px;
+    color: white;
+}
+
+
+p {
+    color:white;
+    font-size: 20px;
+}
+
+nav {
+    display:inline-block;
+    float: right;
+    margin: 20px 40px 0 0;
+
+}
+
+/* SEGUNDA SESSÃO */
+#iconesCursos {
+    width: 60%;
+    margin-top: 70px;
+}
+
+#segundaSection h2 {
+    color: rgb(148, 24, 127);
+}
+
+.coracao {
+    color: rgb(236, 62, 158);
+    font-size: 30px;
+}
+
+#mensagens {
+    background-color: rgb(240, 196, 235);
+}
