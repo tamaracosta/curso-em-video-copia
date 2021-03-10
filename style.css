@@ -235,20 +235,27 @@ nav {
 #conteudoEstudonauta {
     display: inline-block;
     text-align: center;
-    background: url("img/banner-estudonauta8.jpg") center center;
+    background: url("img/banner-estudonauta8.jpg");
     width: 100%;
     height: 340px;
+    background-size: cover;
 }
 
 #conteudoEstudonauta h4 {
     color: white;
     background-color: #7d3196;
+    font-size: 18px;
     width: fit-content;
     display: inline-block;
     padding: 10px;
     border-radius: 5px;
+    margin-top: 15px;
+    
 }
 
+#conteudoEstudonauta p {
+    margin-top: 45px;
+}
 #botaoConhecerEstudo {
     padding: 14px;
     width: 148px;
@@ -259,5 +266,25 @@ nav {
     border: none;
     border-radius: 42px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 35px;
+}
+
+#estudonauta {
+    margin-top: 20px;
+    
+}
+
+
+/* QUINTA SECTION */
+
+#quintaSection {
+    background-color:rgb(231, 229, 229);
+    height: 315px;
+}
+
+
+
+#quintaSection .logos {
+    padding: 50px;
+    text-align: center;
 }
