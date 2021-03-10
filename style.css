@@ -5,6 +5,7 @@
 
 #logoMenu {
     width: 150px;
+    margin: 10px 0 0 35px;
 }
 
 
@@ -25,9 +26,7 @@
 
 
 
-#logoMenu {
-    margin: 10px 0 0 35px;
-}
+
 
 .paixao {
     font-size: 88px;
@@ -278,13 +277,44 @@ nav {
 /* QUINTA SECTION */
 
 #quintaSection {
-    background-color:rgb(231, 229, 229);
+    background-color: rgb(245 243 243);
     height: 315px;
 }
 
-
+#quintaSection h4 {
+    color: rgb(148, 148, 148);
+    padding: 4em 0 0 4em;
+    font-size: 15px;
+}
 
 #quintaSection .logos {
     padding: 50px;
     text-align: center;
+}
+
+#botaoInstitucional {
+    border: 1px solid rgb(206, 205, 205);
+    padding: 6px;
+    background-color:rgb(231, 229, 229);
+    float: right;
+    margin: 0 80px;
+    color:grey;
+}
+
+
+
+/* SEXTA SECTION*/
+#sextaSection {
+    background-color:rgb(236, 234, 234);
+    height: 202px;
+}
+
+#logoFinal {
+    width: 100px;
+    margin: 10px 0 0 35px;
+}
+
+#menuRodape {
+    list-style-type: none;
+    display: inline-flex;
 }
