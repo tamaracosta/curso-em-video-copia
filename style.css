@@ -101,15 +101,9 @@ nav {
     padding-left: 50px;
     display: table-cell;
     vertical-align: middle;
-    
-    
+     
  }
 
-
- 
-#banner {
-    width: 100%;
-}
 
 #botaoComecar {
     padding: 14px;
@@ -235,4 +229,35 @@ nav {
 .texto h3 {
     font-weight: normal;
     font-size: 20px;
+}
+
+
+#conteudoEstudonauta {
+    display: inline-block;
+    text-align: center;
+    background: url("img/banner-estudonauta8.jpg") center center;
+    width: 100%;
+    height: 340px;
+}
+
+#conteudoEstudonauta h4 {
+    color: white;
+    background-color: #7d3196;
+    width: fit-content;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#botaoConhecerEstudo {
+    padding: 14px;
+    width: 148px;
+    font-family: Catamaran, sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: rgb(236, 62, 158);
+    border: none;
+    border-radius: 42px;
+    font-weight: bold;
+    margin-top: 50px;
 }
