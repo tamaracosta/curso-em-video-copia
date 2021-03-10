@@ -318,3 +318,34 @@ nav {
     list-style-type: none;
     display: inline-flex;
 }
+
+#sextaSection p {
+    color:grey;
+    font-size: 15px;
+    margin: 15px 0 15px 38px;
+}
+
+#redesSociais {
+    float: right;
+    margin-right: 79px;
+}
+
+.acesse {
+    color: rgb(46, 45, 45);
+
+}
+
+
+/* FOOTER */
+footer a {
+    color: gray;
+    font-size: x-small;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color:rgb(219, 218, 218);
+    height: 48px;
+    text-align: center;
+}
