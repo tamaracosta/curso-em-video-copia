@@ -54,12 +54,13 @@ nav {
 
 /* SEGUNDA SESSÃO */
 #iconesCursos {
-    width: 70%;
+    width: 90%;
     margin: 70px 0 0 15px;
 }
 
 #segundaSection h2 {
     color: rgb(148, 24, 127);
+    font-size: 35px;
 }
 
 .coracao {
@@ -67,9 +68,7 @@ nav {
     font-size: 30px;
 }
 
-#mensagens {
-    background-color: rgb(240, 196, 235);
-}
+
 
 #segundaSection .gratuitos {
     color: rgb(236, 62, 158);
@@ -135,8 +134,105 @@ nav {
     
     display: table-cell;
     vertical-align: middle;
+    padding-right: 140px;
 }
 
 .spanCursos h2 {
     font-size: 22pt;
+    line-height: 40px;
+}
+
+
+
+/* TERCEIRA SECTION */
+
+#terceiraSection h2 {
+    font-size: 22pt;
+    line-height: 40px;
+    color: rgb(148, 24, 127);
+    
+}
+
+#terceiraSection {
+    display: table;
+    margin-top: 120px;
+}
+
+#mensagens {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgb(236, 177, 229);
+    border-radius: 15px;
+    padding: 100px 127px 410px 178px;
+    width: 60%;
+    line-height: 2;
+}
+
+#terceiraSection #txtMsg {
+    margin-left: 185px;
+    margin-right: 78px;
+    margin-top: 50%;
+}
+
+
+#foto1 {
+    border-radius: 50%;
+    width: 15%;
+    display: inline-block;
+}
+
+#mensagens h3 {
+    color:rgb(235, 95, 153);
+    margin-left: 13px;
+    display: inline-block;
+}
+
+.depoimento {
+    font-size: 20px;
+    padding-left: 127px;
+}
+
+
+/* QUARTA SECTION */
+
+#botaoApoiador {
+    padding: 16px;
+    width: 250px;
+    font-family: Catamaran, sans-serif;
+    font-size: 17px;
+    background-color: white;
+    color: rgb(236, 62, 158);
+    border: rgb(236, 62, 158) 1px solid;
+    border-radius: 42px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#mao {
+    display: table;
+    float: right;
+    margin-top: -500px;
+    margin-bottom: 50px;
+    width: 31%;
+    padding: 184px;
+}
+
+#quartaSection .texto {
+    display: table-cell;
+    
+}
+
+#quartaSection h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.texto {
+    padding: 50% 0 0 30%;
+    color: rgb(148, 24, 127);
+}
+
+.texto h3 {
+    font-weight: normal;
+    font-size: 20px;
 }
