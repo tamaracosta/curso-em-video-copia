@@ -6,6 +6,7 @@
 #logoMenu {
     width: 150px;
     margin: 10px 0 0 35px;
+    cursor: pointer;
 }
 
 
@@ -86,9 +87,12 @@ nav {
     border-radius: 42px;
     font-weight: bold;
     margin-top: 50px;
+    cursor: pointer;
 }
 
-
+#botaoConhecer:hover {
+    background-color: rgb(214, 46, 138);
+}
 
 #textoPaixaoEFotoGuanabara {
     display: table;
@@ -115,6 +119,12 @@ nav {
     border-radius: 42px;
     font-weight: bold;
     margin-top: 50px;
+    cursor: pointer;
+}
+
+#botaoComecar:hover {
+    background-color: white;
+    color: rgb(236, 62, 158);
 }
 
 #textoCursos {
@@ -161,6 +171,10 @@ nav {
     line-height: 2;
 }
 
+#mensagens .bolinha {
+    cursor: pointer;
+}
+
 #terceiraSection #txtMsg {
     margin-left: 185px;
     margin-right: 78px;
@@ -180,7 +194,7 @@ nav {
     display: inline-block;
 }
 
-.depoimento {
+#depoimento {
     font-size: 20px;
     padding-left: 127px;
 }
@@ -199,6 +213,12 @@ nav {
     border-radius: 42px;
     font-weight: bold;
     margin-top: 50px;
+    cursor: pointer;
+}
+
+#botaoApoiador:hover {
+    background-color: rgb(236, 62, 158);
+    color: white;
 }
 
 #mao {
@@ -266,6 +286,12 @@ nav {
     border-radius: 42px;
     font-weight: bold;
     margin-top: 35px;
+    cursor: pointer;
+}
+
+#botaoConhecerEstudo:hover {
+    background-color: rgb(236, 62, 158);
+    color: white;
 }
 
 #estudonauta {
@@ -290,15 +316,18 @@ nav {
 #quintaSection .logos {
     padding: 50px;
     text-align: center;
+    margin-bottom: -16px;
+    cursor: pointer;
 }
 
 #botaoInstitucional {
     border: 1px solid rgb(206, 205, 205);
     padding: 6px;
-    background-color:rgb(231, 229, 229);
+    background-color: rgb(245 243 243);
     float: right;
     margin: 0 80px;
     color:grey;
+    cursor: pointer;
 }
 
 
@@ -307,16 +336,50 @@ nav {
 #sextaSection {
     background-color:rgb(236, 234, 234);
     height: 202px;
+    display: flex;
+    width: 100%;
+}
+
+#sextaSection span {
+    flex: 1;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#sextaSection .links {
+    text-align: center;
 }
 
 #logoFinal {
     width: 100px;
     margin: 10px 0 0 35px;
+    cursor: pointer;
 }
 
 #menuRodape {
     list-style-type: none;
     display: inline-flex;
+    
+ 
+    
+}
+
+#menuRodape a {
+    text-decoration: none;
+    color:gray;
+    
+}
+
+
+#menuRodape a:hover {
+    color:rgb(236, 62, 158);
+}
+
+#menuRodape li {
+    margin: 5px;
+    
+    
 }
 
 #sextaSection p {
@@ -326,8 +389,20 @@ nav {
 }
 
 #redesSociais {
-    float: right;
+    text-align: right;
     margin-right: 79px;
+}
+
+#redesSociais i {
+    color: gray;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+#redesSociais i:hover {
+    color:rgb(236, 62, 158);
+    
 }
 
 .acesse {

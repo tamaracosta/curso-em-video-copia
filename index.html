@@ -16,13 +16,13 @@
         <img id="logoMenu" src="img/cursoemvideo-logo-branca.png" alt="Logo Curso em Vídeo">
         <nav>
             <ul id="menu" type="none">
-                <li> Cursos </li>
-                <li> Sobre </li>
-                <li> Seja um Apoiador </li>
-                <li> Login </li>
-                <li> Cadastra-se </li>
-                <li> Validação de Certificado </li>
-                <li> Hall da Fama </li>
+               <a href="#"><li> Cursos </li></a>
+               <a href="#"> <li> Sobre </li></a>
+               <a href="#"> <li> Seja um Apoiador </li></a>
+               <a href="#"> <li> Login </li></a>
+               <a href="#"> <li> Cadastra-se </li></a>
+               <a href="#"><li> Validação de Certificado </li></a>
+                <a href="#"><li> Hall da Fama </li></a>
             </ul>
         </nav>
     </div>
@@ -61,9 +61,27 @@
         <h2>Mensagens que tornam o nosso dia mais feliz <span class="coracao">♥</span></h2>
     </div>
     <span id="mensagens">
-        <img id="foto1" src="img/unnamed-1-circle.jpg" alt="Foto de usuário"> <h3>Angelo Coelho</h3>
-        <p class="depoimento"> “Começo a entender que grandes empresas ou grandes metas se constroem aos poucos ao decorrer dos anos. Vejo quanta qualidade e quanta dedicação foi aumentando no "CursoemVideo". Todos teus alunos lembrarão do Senhor Guanabara! Gracias!”</p>
+
+
+        
+        <img id="foto1" src="img/unnamed-circle.jpg" alt="Foto de usuário"> 
+        <h3 id="nome">Alexandre Domingues</h3>
+        <p id="depoimento"> "Parabéns a equipe do curso em video, vcs são a referência em aprender programação no Brasil."</p>
+
+        <!-- 
+        <img id="foto2" src="img/unnamed-1-circle.jpg" alt="Foto de usuário"> <h3 id="nome2">Angelo Coelho</h3>
+        <p id="depoimento2"> “Começo a entender que grandes empresas ou grandes metas se constroem aos poucos ao decorrer dos anos. Vejo quanta qualidade e quanta dedicação foi aumentando no "CursoemVideo". Todos teus alunos lembrarão do Senhor Guanabara! Gracias!”</p>
+
+        
+        <img id="foto3" src="img/unnamed-2-circle.jpg" alt="Foto de usuário"> <h3>Francisco Sergio</h3>
+        <p class="depoimento"> "Parabéns professor, vc e sua equipe fazem um trabalho maravilhoso e de ótima qualidade. Patrocínio merecido. Espero que outras empresas siga o exemplo do youtube e da Hostnet e patrocinem o canal cada vez mais. Foi através do seu canal que me apaixonei pela programação. Obrigado por tudo!"</p> -->
+        
+        <span class="bolinha" onclick="passarMensagens(1)">&#9899;</span>
+        <span class="bolinha" onclick="passarMensagens(2)">&#9899;</span>
+        <span class="bolinha" onclick="passarMensagens(3)">&#9899;</span> 
     </span>
+
+   
 
 </section>
 
@@ -102,16 +120,17 @@
 
 </section>
 <section id="sextaSection">
-    <div>
+    <span>
         <img id="logoFinal" src="img/cursoemvideo-logo.png" alt="Logo Curso em Vídeo">
         <p>Curso em Vídeo é uma empresa brasileira legalmente <br>estabelecida e presta serviços educacionais a distância e <br>consultoria para empresas</p>
-
+    </span>
+    <span class="links">
         <ul id="menuRodape">
-            <li>Sobre</li>
-            <li>Cursos</li>
-            <li>Meu Painel</li>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Cursos</li></a>
+            <a href="#"><li>Meu Painel</li></a>
         </ul>
-    </div>
+    </span>
 
     <span id="redesSociais">
         <i class="fab fa-facebook-square"></i>
@@ -125,5 +144,6 @@
 
     
 </footer>
+<script src="curso.js"></script>
 </body>
 </html>
