@@ -166,13 +166,25 @@ nav {
     vertical-align: middle;
     background-color: rgb(236, 177, 229);
     border-radius: 15px;
-    padding: 100px 127px 410px 178px;
+    padding: 100px 127px 100px 178px;
     width: 60%;
     line-height: 2;
+    
+}
+
+#mensagens .bolinha:hover {
+    
+    background-color:rgb(168, 34, 117);
 }
 
 #mensagens .bolinha {
     cursor: pointer;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #e043db;
+    display: inline-block;
+    margin: 5px;
 }
 
 #terceiraSection #txtMsg {
@@ -197,6 +209,7 @@ nav {
 #depoimento {
     font-size: 20px;
     padding-left: 127px;
+    height: 325px;
 }
 
 
