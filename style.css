@@ -3,6 +3,8 @@
     font-family: Catamaran, sans-serif;
 }
 
+/*------------------------ NAVEGADOR -----------------------------------------------*/
+
 #logoMenu {
     width: 150px;
     margin: 10px 0 0 35px;
@@ -18,22 +20,24 @@
     font-weight: bold;
 }
 
+nav {
+    display:inline-block;
+    float: right;
+    margin: 20px 40px 0 0;
+
+}
+
+/* ------------------------------------- PRIMEIRA SECTION -----------------------------*/
 #primeiraSection {
     background-color:rgb(211, 9, 144)
-    }
-
-
-
-
-
-
-
+}
 
 .paixao {
     font-size: 88px;
     color: rgb(238, 128, 201);
     line-height: 69px;
 }
+
 .ensinar {
     font-size: 100px;
     color: white;
@@ -44,68 +48,6 @@ p {
     color:white;
     font-size: 20px;
 }
-
-nav {
-    display:inline-block;
-    float: right;
-    margin: 20px 40px 0 0;
-
-}
-
-/* SEGUNDA SESSÃO */
-#iconesCursos {
-    width: 90%;
-    margin: 70px 0 0 15px;
-}
-
-#segundaSection h2 {
-    color: rgb(148, 24, 127);
-    font-size: 35px;
-}
-
-.coracao {
-    color: rgb(236, 62, 158);
-    font-size: 30px;
-}
-
-
-
-#segundaSection .gratuitos {
-    color: rgb(236, 62, 158);
-}
-
-
-
-#botaoConhecer {
-    padding: 14px;
-    width: 148px;
-    font-family: Catamaran, sans-serif;
-    font-size: 15px;
-    background-color: rgb(236, 62, 158);
-    color: white;
-    border: none;
-    border-radius: 42px;
-    font-weight: bold;
-    margin-top: 50px;
-    cursor: pointer;
-}
-
-#botaoConhecer:hover {
-    background-color: rgb(214, 46, 138);
-}
-
-#textoPaixaoEFotoGuanabara {
-    display: table;
-}
-
-
-#textoPaixao {
-   
-    padding-left: 50px;
-    display: table-cell;
-    vertical-align: middle;
-     
- }
 
 
 #botaoComecar {
@@ -127,14 +69,74 @@ nav {
     color: rgb(236, 62, 158);
 }
 
-#textoCursos {
-    display: table;
+
+/* ------------------------------------SEGUNDA SESSÃO ----------------------------------------- */
+#iconesCursos {
+    width: 90%;
+    margin: 70px 0 0 15px;
+}
+
+#segundaSection h2 {
+    color: rgb(148, 24, 127);
+    font-size: 35px;
 }
 
 
 
+
+#segundaSection .gratuitos {
+    color: rgb(236, 62, 158);
+}
+
+#botaoConhecer {
+    padding: 14px;
+    width: 148px;
+    font-family: Catamaran, sans-serif;
+    font-size: 15px;
+    background-color: rgb(236, 62, 158);
+    color: white;
+    border: none;
+    border-radius: 42px;
+    font-weight: bold;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#botaoConhecer:hover {
+    background-color: rgb(214, 46, 138);
+}
+
+
+.flex-container {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.flex-item {
+    flex-grow: 1;
+    padding-left: 60px;
+}
+
+/*#textoPaixaoEFotoGuanabara {
+    display: table;
+}
+
+
+#textoPaixao {
+   
+    padding-left: 50px;
+    display: table-cell;
+    vertical-align: middle;
+     
+ }*/
+
+
+#textoCursos {
+    display: table;
+}
+
 .spanCursos {
-    
     display: table-cell;
     vertical-align: middle;
     padding-right: 140px;
@@ -147,13 +149,18 @@ nav {
 
 
 
-/* TERCEIRA SECTION */
+/* --------------------------------- TERCEIRA SECTION ------------------------------------------ */
+
+.coracao {
+    color: rgb(236, 62, 158);
+    font-size: 30px;
+}
+
 
 #terceiraSection h2 {
     font-size: 22pt;
     line-height: 40px;
     color: rgb(148, 24, 127);
-    
 }
 
 #terceiraSection {
@@ -169,11 +176,9 @@ nav {
     padding: 100px 127px 100px 178px;
     width: 60%;
     line-height: 2;
-    
 }
 
 #mensagens .bolinha:hover {
-    
     background-color:rgb(168, 34, 117);
 }
 
@@ -195,7 +200,7 @@ nav {
 
 
 #foto1 {
-    border-radius: 50%;
+    border-radius: 50%; 
     width: 15%;
     display: inline-block;
 }
@@ -213,7 +218,7 @@ nav {
 }
 
 
-/* QUARTA SECTION */
+/* ----------------------------------------------QUARTA SECTION -------------------------------------*/
 
 #botaoApoiador {
     padding: 16px;
@@ -245,7 +250,6 @@ nav {
 
 #quartaSection .texto {
     display: table-cell;
-    
 }
 
 #quartaSection h2 {
@@ -282,12 +286,12 @@ nav {
     padding: 10px;
     border-radius: 5px;
     margin-top: 15px;
-    
 }
 
 #conteudoEstudonauta p {
     margin-top: 45px;
 }
+
 #botaoConhecerEstudo {
     padding: 14px;
     width: 148px;
@@ -309,11 +313,10 @@ nav {
 
 #estudonauta {
     margin-top: 20px;
-    
 }
 
 
-/* QUINTA SECTION */
+/* -----------------------------------QUINTA SECTION --------------------------------------------*/
 
 #quintaSection {
     background-color: rgb(245 243 243);
@@ -345,7 +348,7 @@ nav {
 
 
 
-/* SEXTA SECTION*/
+/* ---------------------------------------------SEXTA SECTION-----------------------------------------*/
 #sextaSection {
     background-color:rgb(236, 234, 234);
     height: 202px;
@@ -373,15 +376,11 @@ nav {
 #menuRodape {
     list-style-type: none;
     display: inline-flex;
-    
- 
-    
 }
 
 #menuRodape a {
     text-decoration: none;
     color:gray;
-    
 }
 
 
@@ -391,8 +390,6 @@ nav {
 
 #menuRodape li {
     margin: 5px;
-    
-    
 }
 
 #sextaSection p {
@@ -415,16 +412,14 @@ nav {
 
 #redesSociais i:hover {
     color:rgb(236, 62, 158);
-    
 }
 
 .acesse {
     color: rgb(46, 45, 45);
-
 }
 
 
-/* FOOTER */
+/* -------------------------------------------------FOOTER--------------------------------- */
 footer a {
     color: gray;
     font-size: x-small;
