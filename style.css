@@ -29,7 +29,9 @@ nav {
 
 /* ------------------------------------- PRIMEIRA SECTION -----------------------------*/
 #primeiraSection {
-    background-color:rgb(211, 9, 144)
+    background-image: url('img/fundo08.jpg');
+    background-size: cover;
+    background-position-x: right;
 }
 
 .paixao {
@@ -190,6 +192,11 @@ p {
     background-color: #e043db;
     display: inline-block;
     margin: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
 
 #terceiraSection #txtMsg {
