@@ -1,186 +1,164 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso em Vídeo</title>
-
     <link rel="stylesheet" href="style.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
 </head>
+
 <body>
-<!-- --------------------------------------PRIMEIRA SECTION----------------------------------------->
-<section id="primeiraSection" >
-    <div>
-        <img id="logoMenu" src="img/cursoemvideo-logo-branca.png" alt="Logo Curso em Vídeo">
-        <nav>
-            <ul id="menu" type="none">
-               <a href="#"><li> Cursos </li></a>
-               <a href="#"> <li> Sobre </li></a>
-               <a href="#"> <li> Seja um Apoiador </li></a>
-               <a href="#"> <li> Login </li></a>
-               <a href="#"> <li> Cadastra-se </li></a>
-               <a href="#"><li> Validação de Certificado </li></a>
-                <a href="#"><li> Hall da Fama </li></a>
-            </ul>
-        </nav>
-    </div>
-
-    <!--
-    <div id="textoPaixaoEFotoGuanabara">
-        
-        <span id="textoPaixao">
-            <h1 class="paixao">Paixão por </h1> <h1 class="ensinar">ensinar.</h1>
-            <p>Estude gratuitamente e aprenda <br> com conteúdo e professores de qualidade.</p>
-
-            <input id="botaoComecar" type="button" value="Começar!">
-        </span>
-        
-        <img id="fotoGuanabara" src="img/guana6.png" alt="Foto do Guanabara">
-        
-    </div> -->
-
-    <div class="flex-container">
-    
-    <div class="flex-item">
-        
-            <h1 class="paixao">Paixão por </h1> <h1 class="ensinar">ensinar.</h1>
-            <p>Estude gratuitamente e aprenda <br> com conteúdo e professores de qualidade.</p>
-
-    
-            <input id="botaoComecar" type="button" value="Começar!">
-        
-    </div>
-
-    <div class="flex-item">
-        <img id="fotoGuanabara" src="img/guana6.png" alt="Foto do Guanabara">
-        
-    </div>
-</section>
-
-<!--
-<section id="segundaSection">
-    
-    <div id="textoCursos">
-        
-        <img id="iconesCursos" src="img/Ativo-12.png" alt="Ícones de cursos">
-        
-        <span class="spanCursos">
-            <h2>Cursos de<br> Tecnologia<span class="gratuitos"> <br>gratuitos</span> e de qualidade.</h2>
-            <input id="botaoConhecer" type="button" value="Conhecer">
-        </span>
-    </div>
-
-</section> -->
-
-<!-- --------------------------------------SEGUNDA SECTION----------------------------------------->
-
-<section id="segundaSection">
-    
-    <div id="textoCursos">
-        
-        <img id="iconesCursos" src="img/Ativo-12.png" alt="Ícones de cursos">
-        
-        <span class="spanCursos">
-            <h2>Cursos de<br> Tecnologia<span class="gratuitos"> <br>gratuitos</span> e de qualidade.</h2>
-            <input id="botaoConhecer" type="button" value="Conhecer">
-        </span>
-    </div>
-
-</section>
-
-
-<!-- --------------------------------------TERCEIRA SECTION----------------------------------------->
-<section id="terceiraSection">
-    <div id="txtMsg">
-        <h2>Mensagens que tornam o nosso dia mais feliz <span class="coracao">♥</span></h2>
-    </div>
-    <span id="mensagens">
-
-
-        
-        <img id="foto1" src="img/unnamed-circle.jpg" alt="Foto de usuário"> 
-        <h3 id="nome">Alexandre Domingues</h3>
-        <p id="depoimento"> "Parabéns a equipe do curso em video, vcs são a referência em aprender programação no Brasil."</p>
-
-        <div class="container">
-            <div class="bolinha" onclick="passarMensagens(1)"></div>
-            <div class="bolinha" onclick="passarMensagens(2)"></div>
-            <div class="bolinha" onclick="passarMensagens(3)"></div>    
+   
+    <section id="primeiraSection">
+        <div>
+            <img id="logoMenu" src="img/cursoemvideo-logo-branca.png" alt="Logo Curso em Vídeo">
+            <nav>
+                <ul id="menu" type="none">
+                    <a href="#">
+                        <li> Cursos </li>
+                    </a>
+                    <a href="#">
+                        <li> Sobre </li>
+                    </a>
+                    <a href="#">
+                        <li> Seja um Apoiador </li>
+                    </a>
+                    <a href="#">
+                        <li> Login </li>
+                    </a>
+                    <a href="#">
+                        <li> Cadastra-se </li>
+                    </a>
+                    <a href="#">
+                        <li> Validação de Certificado </li>
+                    </a>
+                    <a href="#">
+                        <li> Hall da Fama </li>
+                    </a>
+                </ul>
+            </nav>
         </div>
-    </span>
+
+        <div class="flex-container">
+            <div class="flex-item">
+                <h1 class="paixao">Paixão por </h1>
+                <h1 class="ensinar">ensinar.</h1>
+                <p>Estude gratuitamente e aprenda <br> com conteúdo e professores de qualidade.</p>
+                <input id="botaoComecar" type="button" value="Começar!">
+            </div>
+
+            <div class="flex-item">
+                <img id="fotoGuanabara" src="img/guana6.png" alt="Foto do Guanabara">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="segundaSection">
+
+        <div id="textoCursos">
+            <img id="iconesCursos" src="img/Ativo-12.png" alt="Ícones de cursos">
+            <span class="spanCursos">
+                <h2>Cursos de<br> Tecnologia<span class="gratuitos"> <br>gratuitos</span> e de qualidade.</h2>
+                <input id="botaoConhecer" type="button" value="Conhecer">
+            </span>
+        </div>
+    </section>
+
+    <section id="terceiraSection">
+        <div id="txtMsg">
+            <h2>Mensagens que tornam o nosso dia mais feliz <span class="coracao">♥</span></h2>
+        </div>
+        <span id="mensagens">
+            <img id="foto1" src="img/unnamed-circle.jpg" alt="Foto de usuário">
+            <h3 id="nome">Alexandre Domingues</h3>
+            <p id="depoimento"> "Parabéns a equipe do curso em video, vcs são a referência em aprender programação no
+                Brasil."</p>
+
+            <div class="container">
+                <div class="bolinha" onclick="passarMensagens(1)"></div>
+                <div class="bolinha" onclick="passarMensagens(2)"></div>
+                <div class="bolinha" onclick="passarMensagens(3)"></div>
+            </div>
+        </span>
+
+    </section>
 
    
+    <section id="quartaSection">
+        <span class="texto">
+            <h2>Seja um Gafanhoto<br> apoiador</h2>
+            <h3>Ajude o Curso em Vídeo a continuar produzindo ainda mais!</h3>
+            <input id="botaoApoiador" type="button" value="Quero ser um Apoiador!">
+        </span>
+        <span>
+            <img id="mao" src="img/Ativo-11.png" alt="Símbolo de mão fechada">
+        </span>
+    </section>
 
-</section>
-
-<!-- --------------------------------------QUARTA SECTION----------------------------------------->
-<section id="quartaSection">
-    <span class="texto">
-        <h2>Seja um Gafanhoto<br> apoiador</h2>
-        <h3>Ajude o Curso em Vídeo a continuar produzindo ainda mais!</h3>
-        <input id="botaoApoiador" type="button" value="Quero ser um Apoiador!">
-    </span>
-    <span>
-        <img id="mao" src="img/Ativo-11.png" alt="Símbolo de mão fechada">
-    </span>
-</section>
-
-<span id="conteudoEstudonauta">
-    <div>
-      <img id="estudonauta" src="img/estudonautabrancopng.png" alt="Logo do Estudonauta">
-    </div>
-    <h4>VAGAS ABERTAS POR TEMPO LIMITADO</h4>
-    <p>Não encontrou o curso que procura? Amplie ainda mais seus <br>conhecimentos com o Estudonauta!</p>
-    <input id="botaoConhecerEstudo" type="button" value="Conhecer">
-</span>
-
-<!-- --------------------------------------QUINTA SECTION----------------------------------------->
-<section id="quintaSection">
-    <span>
-        <h4>APOIO INSTITUCIONAL</h4>
-    </span>
-    <div class="logos">
-        <img src="img/apoiador-hostnet.png" alt="Logo da Hostnet">
-        <img src="img/apoiador-estudonauta.png" alt="Logo da Estudonauta">
-        <img src="img/apoiador-recode.png" alt="Logo da Recode">
-
-    </div>
-
-    <input id="botaoInstitucional" type="button" value="SEJA UM APOIADOR INSTITUCIONAL">
-
-</section>
-
-<!-- --------------------------------------SEXTA SECTION----------------------------------------->
-<section id="sextaSection">
-    <span>
-        <img id="logoFinal" src="img/cursoemvideo-logo.png" alt="Logo Curso em Vídeo">
-        <p>Curso em Vídeo é uma empresa brasileira legalmente <br>estabelecida e presta serviços educacionais a distância e <br>consultoria para empresas</p>
-    </span>
-    <span class="links">
-        <ul id="menuRodape">
-            <a href="#"><li>Sobre</li></a>
-            <a href="#"><li>Cursos</li></a>
-            <a href="#"><li>Meu Painel</li></a>
-        </ul>
+    <span id="conteudoEstudonauta">
+        <div>
+            <img id="estudonauta" src="img/estudonautabrancopng.png" alt="Logo do Estudonauta">
+        </div>
+        <h4>VAGAS ABERTAS POR TEMPO LIMITADO</h4>
+        <p>Não encontrou o curso que procura? Amplie ainda mais seus <br>conhecimentos com o Estudonauta!</p>
+        <input id="botaoConhecerEstudo" type="button" value="Conhecer">
     </span>
 
-    <span id="redesSociais">
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-youtube"></i>
-    </span>
-</section>
+    <section id="quintaSection">
+        <span>
+            <h4>APOIO INSTITUCIONAL</h4>
+        </span>
+        <div class="logos">
+            <img src="img/apoiador-hostnet.png" alt="Logo da Hostnet">
+            <img src="img/apoiador-estudonauta.png" alt="Logo da Estudonauta">
+            <img src="img/apoiador-recode.png" alt="Logo da Recode">
 
-<!-- --------------------------------------FOOTER----------------------------------------->
-<footer>
-    <a href="https://www.hostnet.com.br/criacao-de-site-ead/">QUER UM SITE IGUAL A ESTE? <span class="acesse">ACESSE HOSTNET INTERNET</span></a> 
+        </div>
 
+        <input id="botaoInstitucional" type="button" value="SEJA UM APOIADOR INSTITUCIONAL">
+
+    </section>
 
     
-</footer>
-<script src="curso.js"></script>
+    <section id="sextaSection">
+        <span>
+            <img id="logoFinal" src="img/cursoemvideo-logo.png" alt="Logo Curso em Vídeo">
+            <p>Curso em Vídeo é uma empresa brasileira legalmente <br>estabelecida e presta serviços educacionais a distância e <br>consultoria para empresas</p>
+        </span>
+        <span class="links">
+            <ul id="menuRodape">
+                <a href="#">
+                    <li>Sobre</li>
+                </a>
+                <a href="#">
+                    <li>Cursos</li>
+                </a>
+                <a href="#">
+                    <li>Meu Painel</li>
+                </a>
+            </ul>
+        </span>
+
+        <span id="redesSociais">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+        </span>
+    </section>
+
+
+    <footer>
+        <a href="https://www.hostnet.com.br/criacao-de-site-ead/">QUER UM SITE IGUAL A ESTE? <span class="acesse">ACESSE HOSTNET INTERNET</span>
+        </a>
+    </footer>
+    <script src="curso.js"></script>
+
 </body>
+
 </html>
